@@ -1,0 +1,26 @@
+.statistics-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+  
+  .stat-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(235, 235, 182);
+  }
+
+  .heading-stat{
+    text-align: center;
+  }
+  .heading-stat span{
+    font-size: 16px;
+    font-weight: 400;
+  }

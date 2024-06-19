@@ -1,0 +1,54 @@
+.wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    
+  }
+
+  .heading-dashboard{
+    text-align: center;
+    background-color:#D0E8F0;
+    padding: 20px;
+    width: 20%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .controls select, .controls input {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .chart {
+    background-color: 	#D0E8F0;
+    padding-bottom: 2.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .chart{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  .select-month{
+    background-color:  rgb(238, 238, 147);
+    border: 1px solid  rgb(238, 238, 147);
+    border-radius: 2rem;
+  }
+
+  input{
+    background-color:   rgb(235, 235, 182);
+    border: 1px solid   rgb(235, 235, 182);
+    border-radius: 2rem;
+    color: black;
+  }

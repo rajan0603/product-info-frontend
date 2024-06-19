@@ -1,0 +1,57 @@
+.transaction-wrapper {
+    margin-bottom: 40px;
+  }
+  
+  .transaction-wrapper table {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(235, 235, 182);
+  }
+
+  .transaction-wrapper th, .transaction-wrapper td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transaction-wrapper th {
+    background-color: rgb(235, 235, 182);
+  }
+  
+  .transaction-wrapper td:hover {
+    background-color: rgb(229, 229, 150);
+  }
+  
+  .transaction-wrapper td[title] {
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(235, 235, 182);
+    color: black;
+    border: 1px solid  rgb(235, 235, 182);
+  }
+
+  button:hover{
+    background-color: rgb(229, 229, 150);
+  }
+
+  .button-page{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .page{
+    margin: 5px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: rgb(235, 235, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
