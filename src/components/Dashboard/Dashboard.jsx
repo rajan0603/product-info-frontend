@@ -16,7 +16,7 @@ export default function Dashboard() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/product/combine', {
+            const response = await axios.get('https://product-info-backend.onrender.com/api/product/combine', {
                 params: { month }
             });
             setTransactions(response.data.transactions.products);

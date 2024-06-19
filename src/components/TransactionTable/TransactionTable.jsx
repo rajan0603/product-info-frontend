@@ -9,7 +9,7 @@ export default function TransactionTable({ transactions: initialTransactions, se
 
     const fetchTransactions = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/product/transaction', {
+            const response = await axios.get('https://product-info-backend.onrender.com/api/product/transaction', {
                 params: { search, page, perPage: 10, month }
             });
             setTransactions(response.data.products);
